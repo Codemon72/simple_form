@@ -11,15 +11,16 @@
       type="image/png"
     />
     <link rel="stylesheet" href="style.css" />
-    <title>Tracking App</title>
+    <title>Buddhistisches Zentrum Hamburg</title>
   </head>
   <body>
-    <header></header>
+    <header>
+      <img class="header__logo" src="/logos/DWB_KKL_rgb_german_.gif" alt="">
+    </header>
     <div class="form">
       <form
         action="/Jesse_action"
         method="post"
-        target="_self"
       >
         <!-- Name -->
         <label class="form-group">
@@ -120,12 +121,11 @@
         <!-- Checkbox Privacy -->
         <label class="form-checkbox__container">
           <input value="privacy policy accepted" class="form-checkbox__input" name="privacy-checkbox" type="checkbox" required>
-          <span class="form-checkbox__checkmark"></span>
           <span class="required">Ich willige ein, dass meine Daten vom Buddhistischen Zentrum Hamburg zum Zwecke der Nachverfolgung verarbeitet und bis zu X Wochen gespeichert werden.</span>
         </label>
 
         <!-- Submit -->
-        <div class="centered">
+        <div>
           <button class="button button__label" type="submit" value="Submit">
             Senden
           </button>
