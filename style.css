@@ -43,7 +43,7 @@ legend + .form-group {
   padding: .5rem 1rem;
   border-radius: 6px;
 }
-input {
+input, select {
   padding: 3px 6px;
 }
 INPUT::-webkit-input-placeholder{
