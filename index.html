@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      href="logos/fire_wheel.png"
+      sizes="16x16"
+      type="image/png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tracking App</title>
+  </head>
+  <body>
+    <header></header>
+    <div class="form">
+      <form
+        action="/Jesse_action"
+        method="post"
+        target="_self"
+      >
+        <!-- Name -->
+        <label class="form-group">
+          <span class="form-group__label required">Vorname</span>
+          <input
+            class="form-text"
+            type="text"
+            name="firstName"
+            placeholder="Jane"
+            required
+          />
+        </label>
+        <label class="form-group">
+          <span class="form-group__label required">Nachname</span>
+          <input
+            class="form-text"
+            type="text"
+            name="lastName"
+            placeholder="Doe"
+            required
+          />
+        </label>
+        <!-- Email -->
+        <label class="form-group">
+          <span class="form-group__label required">Email</span>
+          <input
+            class="form-text"
+            type="email"
+            name="email"
+            placeholder="Jane.Doe@example.net"
+            inputmode="email"
+            required
+          />
+        </label>
+        <!-- Address -->
+        <fieldset class="mt_1rem">
+          <legend>Adresse</legend>
+          <label class="form-group">
+            <span class="form-group__label required">Straße und Hausnummer</span>
+            <input
+              class="form-text"
+              type="text"
+              name="firstName"
+              placeholder="Musterstraße 108"
+              required
+            />
+          </label>
+          <label class="form-group">
+            <span class="form-group__label required">Postleitzahl</span>
+            <input
+            class="form-text"
+            type="text"
+            name="firstName"
+            placeholder="22767"
+            required
+            />
+          </label>
+          <label class="form-group">
+            <span class="form-group__label required">Stadt</span>
+            <input
+              class="form-text"
+              type="text"
+              name="city"
+              placeholder="Hamburg"
+              required
+            />
+          </label>
+        </fieldset>
+        <!-- Phone -->
+        <label class="form-group block">
+          <span class="form-group__label required">Telefon</span>
+          <input
+            class="form-text turn-off-number-input-arrows"
+            type="number"
+            id="phone"
+            name="phone"
+            placeholder="0151-XXXX-XXXX"
+            inputmode="tel"
+            required
+          />
+        </label>
+        <!-- Verweildauer -->
+        <label class="form-group block">
+          <span class="form-group__label">vorraussichtliche Verweildauer</span>
+          <select class="form-select" name="language">
+            <option value="15">15 Minuten</option>
+            <option value="30" selected>30 Minuten</option>
+            <option value="45">45 Minunten</option>
+            <option value="60">1 Stunde</option>
+            <option value="90">1,5 Stunden</option>
+            <option value="120">2 Stunden</option>
+            <option value="150">2,5 Stunden</option>
+            <option value="180">3 Stunden</option>
+          </select>
+        </label>
+
+        <!-- Submit -->
+        <div class="centered">
+          <button class="button button__label" type="submit" value="Submit">
+            Senden
+          </button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
