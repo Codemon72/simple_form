@@ -43,3 +43,6 @@ INPUT:-moz-placeholder {
 input[placeholder], select {
   font-size: 16px;
 }
+.form-checkbox__container {
+  margin-top: 1rem;
+}
