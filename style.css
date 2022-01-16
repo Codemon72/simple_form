@@ -30,6 +30,9 @@ legend + .form-group {
 .button {
   margin-top: 1rem;
 }
+input {
+  padding: 3px 6px;
+}
 
 INPUT::-webkit-input-placeholder{
   font-size: 16px;
@@ -37,6 +40,6 @@ INPUT::-webkit-input-placeholder{
 INPUT:-moz-placeholder {
   font-size: 16px;
 }
-input[placeholder] {
+input[placeholder], select {
   font-size: 16px;
 }
